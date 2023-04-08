@@ -11,8 +11,13 @@ jobs:
     name: build and deploy mkdocs
     runs-on: ubuntu-latest
     steps:
-      - name: checkout main 
-        uses: actions/checkout@v2
+      # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-using-versioned-actions
+      # uses: actions/checkout@v2
+      - name: checkout 
+        uses: actions/checkout@v3
+
+      - name: main
+        uses: actions/checkout@main
       
       - name: Set up Python 3.7
         uses: actions/setup-python@v2
