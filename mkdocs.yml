@@ -1,0 +1,14 @@
+site_name: James R. Albarracin
+nav: 
+  - 'Home': index.md
+  - 'Projects': projects.md
+
+theme:
+  name: material
+  # logo: https://avatars.githubusercontent.com/u/1323390?s=400&u=5a93c4ed64591549b58bc05c062c1d07f1e0cf42&v=4
+  # favicon: https://avatars.githubusercontent.com/u/1323390?s=400&u=5a93c4ed64591549b58bc05c062c1d07f1e0cf42&v=4
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jralbarracin1
